@@ -69,6 +69,14 @@ pipenv install git+https://github.com/twintproject/twint.git#egg=twint
 
 Noticed a lot of people are having issues installing (including me). Please use the Dockerfile temporarily while I look into them. 
 
+
+### Feb 2, 2023 Fixed the Docker Image
+
+**Added**: Do this
+sudo docker build . -t segunda/twint:latest
+sudo docker run -it --rm segunda/twint
+
+
 ## CLI Basic Examples and Combos
 A few simple examples to help you understand the basics:
 
